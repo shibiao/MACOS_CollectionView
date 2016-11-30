@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11542"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SBCollectionItem" customModule="MACOS_CollectionView" customModuleProvider="target">
+            <connections>
+                <outlet property="nameLabel" destination="KVf-G4-OjC" id="1jI-Ep-0yu"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="267" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField identifier="item" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KVf-G4-OjC">
+                    <rect key="frame" x="82" y="16" width="104" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="rHF-4F-Qf7"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="ltY-wB-vEH">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="KVf-G4-OjC" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="VtA-fZ-n6r"/>
+                <constraint firstItem="KVf-G4-OjC" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="oxc-Ws-wDO"/>
+            </constraints>
+        </customView>
+        <customObject id="9xx-AP-jaN" customClass="SBCollectionItem" customModule="MACOS_CollectionView" customModuleProvider="target"/>
+    </objects>
+</document>

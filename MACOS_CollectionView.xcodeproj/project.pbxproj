@@ -13,6 +13,8 @@
 		916A0A811DEE7D950020B34C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916A0A7F1DEE7D950020B34C /* Main.storyboard */; };
 		916A0A8C1DEE7D960020B34C /* MACOS_CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A0A8B1DEE7D960020B34C /* MACOS_CollectionViewTests.swift */; };
 		916A0A971DEE7D960020B34C /* MACOS_CollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A0A961DEE7D960020B34C /* MACOS_CollectionViewUITests.swift */; };
+		916A0AA61DEE7F6A0020B34C /* SBCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A0AA41DEE7F6A0020B34C /* SBCollectionItem.swift */; };
+		916A0AA71DEE7F6A0020B34C /* SBCollectionItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 916A0AA51DEE7F6A0020B34C /* SBCollectionItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		916A0A921DEE7D960020B34C /* MACOS_CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MACOS_CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		916A0A961DEE7D960020B34C /* MACOS_CollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MACOS_CollectionViewUITests.swift; sourceTree = "<group>"; };
 		916A0A981DEE7D960020B34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		916A0AA41DEE7F6A0020B34C /* SBCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCollectionItem.swift; sourceTree = "<group>"; };
+		916A0AA51DEE7F6A0020B34C /* SBCollectionItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBCollectionItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				916A0A791DEE7D950020B34C /* AppDelegate.swift */,
 				916A0A7B1DEE7D950020B34C /* ViewController.swift */,
+				916A0AA41DEE7F6A0020B34C /* SBCollectionItem.swift */,
+				916A0AA51DEE7F6A0020B34C /* SBCollectionItem.xib */,
 				916A0A7D1DEE7D950020B34C /* Assets.xcassets */,
 				916A0A7F1DEE7D950020B34C /* Main.storyboard */,
 				916A0A821DEE7D950020B34C /* Info.plist */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				916A0A7E1DEE7D950020B34C /* Assets.xcassets in Resources */,
+				916A0AA71DEE7F6A0020B34C /* SBCollectionItem.xib in Resources */,
 				916A0A811DEE7D950020B34C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				916A0A7C1DEE7D950020B34C /* ViewController.swift in Sources */,
+				916A0AA61DEE7F6A0020B34C /* SBCollectionItem.swift in Sources */,
 				916A0A7A1DEE7D950020B34C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
